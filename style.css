@@ -1,0 +1,384 @@
+body {
+    font-family: 'Segoe UI', Arial, serif;
+    color: white;
+    background: url("flower-earth-people-7.png") no-repeat fixed;
+    background-size: cover;
+}
+
+.clear {
+    clear: both
+}
+
+#header {
+    height: 121px;
+    /*border-bottom: 1px solid white;*/
+    padding-bottom: 10px;
+}
+
+#maket {
+    width: 970px;
+    min-width: 970px;
+    /*border: 1px solid white;*/
+    margin: auto;
+    /*background: url("flower-earth-people-7.png") no-repeat fixed;*/
+    /*background-size: cover;*/
+    /*background-color: #135a72;*/
+    /*box-sizing: border-box;*/
+    /*color: white;*/
+}
+
+#footer {
+    /*border: 1px solid white;*/
+    text-align: center;
+    /*height: 72px;*/
+    /*margin-top: -72px;*/
+    clear: both;
+}
+
+#header h3 {
+    /*float: right;*/
+    float: left;
+    margin: 10px 40px;
+    /*margin: 0 auto;*/
+}
+
+#header img {
+    float: left;
+}
+
+nav ul {
+    margin-top: 0;
+    padding-left: 20px;
+    float: left;
+}
+
+nav ul li {
+    float: left;
+    display: inline-block;
+    cursor: pointer;
+    width: 150px;
+    height: 30px;
+    background: #687d8a;
+    margin-right: 10px;
+    padding: 10px 3px 0 3px;
+    position: relative;
+    text-align: center;
+    border-radius: 10%;
+    /*border: 1px solid white;*/
+}
+
+nav ul li > ul {
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: visability, opacity 2s ease 0.2s;
+    -moz-transition: visability, opacity 2s ease 0.2s;
+    -o-transition: visability, opacity 2s ease 0.2s;
+    transition: visability, opacity 2s ease 0.2s;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav ul li, a {
+    color: white;
+}
+
+nav li:hover {
+    background: #1b8bad;
+}
+
+nav ul li:hover > ul {
+    display: block;
+    position: absolute;
+    white-space: nowrap;
+    top: 40px;
+    padding-left: 0;
+    opacity: 1;
+    visibility: visible;
+
+}
+
+nav ul li:hover > ul li {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 3px 3px 3px black;
+}
+
+.podkl {
+    margin: 0 auto;
+    width: 40%;
+    height: 50px;
+    background: #2e81c5;
+    color: white;
+    border: 1px solid white;
+    border-radius: 35%;
+    text-align: center;
+    font-size: 2em;
+}
+
+.podkl:hover {
+    cursor: pointer;
+    background: #66ed66;
+}
+
+.podkl a {
+    text-decoration: none
+}
+
+.osn .pravo {
+    width: 60%;
+    height: auto;
+    border: 1px solid white;
+    border-radius: 5%;
+    float: right;
+    background: rgba(19, 90, 114, 0.8);
+    margin-right: 55px;
+    margin-top: 50px;
+    padding-left: 10px;
+    box-shadow: 5px 5px 2px black;
+    -webkit-transition: all 1s ease 0.2s;
+    -moz-transition: all 1s ease 0.2s;
+    -o-transition: all 1s ease 0.2s;
+    transition: all 1s ease 0.2s;
+}
+
+.osn .pravo:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.osn .pravo b {
+    color: #66ed66
+}
+
+.osn .levo p {
+    font-size: 1.5em;
+    margin: 0 auto;
+    width: 10em;
+    height: 2em;
+    background: #687d89;
+    text-align: center;
+    text-shadow: 3px 3px 3px black;
+    border: 1px solid white;
+    border-radius: 35%;
+    /*float: left;*/
+}
+
+.osn .levo {
+    float: left;
+    margin-left: 10px;
+    margin-top: 50px;
+    width: 25%;
+}
+
+/*.osn .levo p:hover {*/
+/*cursor: pointer*/
+/*}*/
+
+.osn img {
+    width: 70%;
+    height: 70%;
+    border: 10px solid #687d88;
+    border-radius: 50%;
+    display: block;
+    margin: 15px auto 0 auto;
+    /*float: left;*/
+}
+
+.one {
+    -webkit-transition: all 2s linear 0.2s;
+    -moz-transition: all 2s linear 0.2s;
+    -o-transition: all 2s linear 0.2s;
+    transition: all 2s linear 0.2s;
+}
+
+.one:hover {
+    cursor: pointer;
+    -webkit-transform: rotatey(360deg);
+    -moz-transform: rotatey(360deg);
+    -o-transform: rotatey(360deg);
+    -ms-transform: rotatey(360deg);
+    transform: rotatey(360deg);
+}
+
+.two {
+    -webkit-transition: all 2s linear 0.2s;
+    -moz-transition: all 2s linear 0.2s;
+    -o-transition: all 2s linear 0.2s;
+    transition: all 2s linear 0.2s;
+}
+
+.two:hover {
+    cursor: pointer;
+    -webkit-transform: rotate3d(-10, -10, -10, 360deg);
+    -moz-transform: rotate3d(-10, -10, -10, 360deg);
+    -o-transform: rotate3d(-10, -10, -10, 360deg);
+    -ms-transform: rotate3d(-10, -10, -10, 360deg);
+    transform: rotate3d(-10, -10, -10, 360deg);
+}
+
+.three {
+    -webkit-transition: all 2s linear 0.2s;
+    -moz-transition: all 2s linear 0.2s;
+    -o-transition: all 2s linear 0.2s;
+    transition: all 2s linear 0.2s;
+}
+
+.three:hover {
+    cursor: pointer;
+    border-radius: 0;
+    -webkit-transform: translate(0, 240px) rotate(360deg);
+    -moz-transform: translate(0, 240px) rotate(360deg);
+    -o-transform: translate(0, 240px) rotate(360deg);
+    -ms-transform: translate(0, 240px) rotate(360deg);
+    transform: translate(0, 240px) rotate(360deg);
+}
+
+.four {
+    -webkit-transition: all 3s linear 0.2s;
+    -moz-transition: all 3s linear 0.2s;
+    -o-transition: all 3s linear 0.2s;
+    transition: all 3s linear 0.2s;
+}
+
+.four:hover {
+    cursor: pointer;
+    -webkit-transform: scale(0.5) rotate(720deg);
+    -moz-transform: scale(0.5) rotate(720deg);
+    -o-transform: scale(0.5) rotate(720deg);
+    -ms-transform: scale(0.5) rotate(720deg);
+    transform: scale(0.5) rotate(720deg);
+}
+
+table {
+    margin: 5px auto;
+    padding: 0;
+    border-spacing: 0;
+}
+
+table td, table th {
+    padding: 7px 15px;
+}
+
+table th {
+    background: #677E8C;
+    font-weight: bold;
+}
+
+table td {
+    border-bottom: 1px solid rgba(103, 126, 140, 0.4);
+}
+
+.price-table th, .advanced-price-table th {
+    font-size: 0.85em;
+    padding: 0.6em 0.2em 0.6em 0.2em;
+    vertical-align: top;
+    font-weight: bold;
+}
+
+.price-table th {
+    text-align: center;
+    width: 7em;
+}
+
+.price-table td {
+    padding: 0.5em 1em 0.5em 0.425em;
+    vertical-align: top;
+    text-align: right;
+}
+
+.price-table td.name {
+    text-align: left;
+    white-space: nowrap;
+}
+
+.price-table td.bandwidth {
+    padding-right: 2em;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.price-table td.per-month {
+
+    padding-right: 3em;
+}
+
+.price-table td.traffic-included {
+    padding-right: 2em;
+}
+
+.price-table td.mb-cost {
+    padding-right: 3.5em;
+}
+
+/*,,,,*/
+.yesscroll {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.street {
+    float: left;
+    list-style: none;
+    width: 100%;
+    padding-left: 0;
+    margin-left: 0;
+"
+}
+
+.street li {
+    margin: 10px 0;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+    border-bottom: 1px solid white;
+}
+
+.street li:nth-child(1) {
+    border-top: 1px solid white;
+}
+
+.street li:hover, li:active {
+    background: #484d4f;
+    cursor: pointer;
+}
+
+.street a {
+    color: white;
+    text-decoration: none;
+}
+
+.buttons {
+    width: 500px;
+    display: block;
+    height: 45px;
+    border: 1px solid white;
+    background: #1b8aac;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.buttons.button1 {
+    margin: 0 auto;
+}
+
+.buttons a {
+    text-decoration: none;
+    color: white;
+}
+
+.notscroll {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}
